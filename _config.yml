@@ -205,3 +205,11 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+# 自定义CSS
+sass:
+  style: compressed
+
+# 添加自定义head内容
+head_scripts:
+  - /assets/css/custom.css
